@@ -61,7 +61,7 @@ public static class Markem_Imaje_9450
 
     private static readonly byte[] Margin = [0x00, 0x03, 0x00, 0x03];
 
-    private static readonly byte[] PrintingDelay = [0x00, 0x03];
+    private static readonly byte[] PrintingSpeed = [0x00, 0x03];
 
     private static readonly byte[] NumberOfParameter = [0x00, 0x02];
 
@@ -114,7 +114,7 @@ public static class Markem_Imaje_9450
                 TACHO_DIVISION,
                 .. Margin,
                 .. IntervalForRepeatingMode,
-                .. PrintingDelay,
+                .. PrintingSpeed,
                 Line.Reserved,
                 Line.Reserved,
                 PARAMETER_TYPE,
